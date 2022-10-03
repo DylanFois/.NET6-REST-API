@@ -1,4 +1,5 @@
 public record CarSalesResponse(
+    Guid id,
     string make,
     string model,
     int year,

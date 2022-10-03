@@ -1,0 +1,12 @@
+C:\Users\Dylan\Documents\School\University\.NET6 REST API\CarSales\CarSales.Contracts\bin\Debug\net6.0\CarSales.Contracts.deps.json
+C:\Users\Dylan\Documents\School\University\.NET6 REST API\CarSales\CarSales.Contracts\bin\Debug\net6.0\CarSales.Contracts.dll
+C:\Users\Dylan\Documents\School\University\.NET6 REST API\CarSales\CarSales.Contracts\bin\Debug\net6.0\CarSales.Contracts.pdb
+C:\Users\Dylan\Documents\School\University\.NET6 REST API\CarSales\CarSales.Contracts\obj\Debug\net6.0\CarSales.Contracts.csproj.AssemblyReference.cache
+C:\Users\Dylan\Documents\School\University\.NET6 REST API\CarSales\CarSales.Contracts\obj\Debug\net6.0\CarSales.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dylan\Documents\School\University\.NET6 REST API\CarSales\CarSales.Contracts\obj\Debug\net6.0\CarSales.Contracts.AssemblyInfoInputs.cache
+C:\Users\Dylan\Documents\School\University\.NET6 REST API\CarSales\CarSales.Contracts\obj\Debug\net6.0\CarSales.Contracts.AssemblyInfo.cs
+C:\Users\Dylan\Documents\School\University\.NET6 REST API\CarSales\CarSales.Contracts\obj\Debug\net6.0\CarSales.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Dylan\Documents\School\University\.NET6 REST API\CarSales\CarSales.Contracts\obj\Debug\net6.0\CarSales.Contracts.dll
+C:\Users\Dylan\Documents\School\University\.NET6 REST API\CarSales\CarSales.Contracts\obj\Debug\net6.0\refint\CarSales.Contracts.dll
+C:\Users\Dylan\Documents\School\University\.NET6 REST API\CarSales\CarSales.Contracts\obj\Debug\net6.0\CarSales.Contracts.pdb
+C:\Users\Dylan\Documents\School\University\.NET6 REST API\CarSales\CarSales.Contracts\obj\Debug\net6.0\ref\CarSales.Contracts.dll

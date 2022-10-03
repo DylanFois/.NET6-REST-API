@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XIhC6z3MonKHLdg0Zwtb9fk6rJhp5ZD9IOxk9bN9zJoXtl1ZLvP5V60Dy50TnzknQ8Hfz330JPSipU5AUAwkrw==",
+  "dgSpecHash": "L31mIcf4kDAAUudP5XV+06/0hwV2BHzC/geiam5tWb4IqgUu9qaVQl2+2dctjHjUlv+94GxkgShjiHpNuA+JrA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dylan\\Documents\\School\\University\\.NET6 REST API\\CarSales\\CarSales\\CarSales.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Dylan\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
-    "C:\\Users\\Dylan\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\Dylan\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
-    "C:\\Users\\Dylan\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
-    "C:\\Users\\Dylan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "C:\\Users\\Dylan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\Dylan\\Documents\\School\\University\\.NET6 REST API\\CarSales\\Carsales\\CarSales.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
