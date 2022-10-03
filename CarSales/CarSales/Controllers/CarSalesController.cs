@@ -1,28 +1,29 @@
 using Microsoft.AspNetCore.Mvc;
 
 [ApiController]
+[Route("carsales")]
 
 public class CarSalesController : ControllerBase
 {
-    [HttpPost("/carsales")]
+    [HttpPost()]
     public IActionResult CreateCarSales(CreateCarSalesRequest request)
     {
         return Ok(request);
     }
 
-        [HttpGet("/carsales/{id:guid}")]
+        [HttpGet("{id:guid}")]
     public IActionResult GetCarSales(Guid id)
     {
         return Ok(id);
     }
 
-        [HttpPut("/carsales/{id:guid}")]
+        [HttpPut("{id:guid}")]
     public IActionResult UpdateCarSales(Guid id, UpdateCarSalesRequest request)
     {
         return Ok(request);
     }
 
-    [HttpDelete("/carsales/{id:guid}")]
+    [HttpDelete("{id:guid}")]
     public IActionResult DeleteCarSales(Guid id)
     {
         return Ok(id);
