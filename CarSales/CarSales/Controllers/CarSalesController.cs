@@ -5,10 +5,42 @@ using Microsoft.AspNetCore.Mvc;
 
 public class CarSalesController : ControllerBase
 {
-    [HttpPost()]
+    [HttpPost]
     public IActionResult CreateCarSales(CreateCarSalesRequest request)
     {
-        return Ok(request);
+        var carSalesListing = new CarSalesListing(
+            Guid.NewGuid(),
+            request.make,
+            request.model,
+            request.year,
+            request.color,
+            request.kilometres,
+            request.saleprice,
+            request.listDatetime,
+            DateTime.UtcNow,
+            request.options
+        );
+
+        // TODO: save carsales listing to database
+
+        var response = new CarSalesResponse(
+            carSalesListing.ID,
+            carSalesListing.make,
+            carSalesListing.model,
+            carSalesListing.year,
+            carSalesListing.color,
+            carSalesListing.kilometres,
+            carSalesListing.saleprice,
+            carSalesListing.listDateTime,
+            carSalesListing.lastModifiedDateTime,
+            carSalesListing.options
+        );
+
+        return CreatedAtAction(
+            actionName: nameof(GetCarSales),
+            routeValues: new {id = carSalesListing.ID}, 
+            value: response
+            );
     }
 
         [HttpGet("{id:guid}")]

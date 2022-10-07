@@ -7,5 +7,6 @@ public record CarSalesResponse(
     int kilometres,
     int saleprice,
     DateTime listDatetime,
+    DateTime lastModifiedDateTime,
     List<string> options
 );
