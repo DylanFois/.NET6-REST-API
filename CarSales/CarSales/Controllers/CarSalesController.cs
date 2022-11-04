@@ -5,6 +5,12 @@ using Microsoft.AspNetCore.Mvc;
 
 public class CarSalesController : ControllerBase
 {
+    private readonly ICarSalesListingService _carsalesService;
+
+    public CarSalesController(ICarSalesListingService carSalesListingService){
+        _carsalesService = carSalesListingService;
+    }
+
     [HttpPost]
     public IActionResult CreateCarSales(CreateCarSalesRequest request)
     {
@@ -22,6 +28,7 @@ public class CarSalesController : ControllerBase
         );
 
         // TODO: save carsales listing to database
+        _carsalesService.CreateCarSalesListing(carSalesListing);
 
         var response = new CarSalesResponse(
             carSalesListing.ID,
@@ -46,7 +53,22 @@ public class CarSalesController : ControllerBase
         [HttpGet("{id:guid}")]
     public IActionResult GetCarSales(Guid id)
     {
-        return Ok(id);
+        CarSalesListing carSalesListing = _carsalesService.GetCarSalesListing(id);
+
+        var response = new CarSalesResponse(
+            carSalesListing.ID,
+            carSalesListing.make,
+            carSalesListing.model,
+            carSalesListing.year,
+            carSalesListing.color,
+            carSalesListing.kilometres,
+            carSalesListing.saleprice,
+            carSalesListing.listDateTime,
+            carSalesListing.lastModifiedDateTime,
+            carSalesListing.options
+        );
+
+        return Ok(response);
     }
 
         [HttpPut("{id:guid}")]

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L31mIcf4kDAAUudP5XV+06/0hwV2BHzC/geiam5tWb4IqgUu9qaVQl2+2dctjHjUlv+94GxkgShjiHpNuA+JrA==",
+  "dgSpecHash": "5k5JYuW25S7/jCk/EIvslg7HGvEg+BmXJDpiWgFrp+bbaRSs4VduJ7pDE2LOpfdxNwOkrzZT3zXfZHbEDtYBqQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dylan\\Documents\\School\\University\\.NET6 REST API\\CarSales\\Carsales\\CarSales.csproj",
+  "projectFilePath": "C:\\Users\\Dylan\\Documents\\School\\University\\.NET6 REST API\\CarSales\\CarSales\\CarSales.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
