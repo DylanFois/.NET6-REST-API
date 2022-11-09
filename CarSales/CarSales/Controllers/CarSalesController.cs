@@ -74,12 +74,27 @@ public class CarSalesController : ControllerBase
         [HttpPut("{id:guid}")]
     public IActionResult UpdateCarSales(Guid id, UpdateCarSalesRequest request)
     {
-        return Ok(request);
+        var listing = new CarSalesListing(id, 
+        request.make, 
+        request.model, 
+        request.year, 
+        request.color, 
+        request.kilometres, 
+        request.saleprice, 
+        request.listDatetime, 
+        DateTime.UtcNow, 
+        request.options);
+
+        _carsalesService.UpdateListing(listing);
+
+        // TODO: return 201 if a new listing is created
+        return NoContent();
     }
 
     [HttpDelete("{id:guid}")]
     public IActionResult DeleteCarSales(Guid id)
     {
-        return Ok(id);
+        _carsalesService.DeleteListing(id);
+        return NoContent();
     }
 }

@@ -9,4 +9,12 @@ public class CarSalesListingService : ICarSalesListingService{
     public CarSalesListing GetCarSalesListing(Guid id){
         return _carSalesListing[id];
     }
+
+    public void UpdateListing(CarSalesListing carSalesListing){
+        _carSalesListing[carSalesListing.ID] = carSalesListing;
+    }
+
+    public void DeleteListing(Guid id){
+        _carSalesListing.Remove(id);
+    }
 }
